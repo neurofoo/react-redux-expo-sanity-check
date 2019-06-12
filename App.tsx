@@ -22,9 +22,6 @@ export default function App() {
   return (
     <Provider store={store}>
       <Main />
-      {/* <View style={styles.container}>
-        <Text>Store is empty? </Text>
-      </View> */}
     </Provider>
   );
 }
